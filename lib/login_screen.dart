@@ -67,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     MaterialPageRoute(builder: (context) => RegisterScreen()));
               },
               child: Text('registers')),
-          ElevatedButton(onPressed: () async {}, child: Text('FB LOGIN')),
+          ElevatedButton(onPressed: () async {}, child: Text('FB LOGIN dev')),
           ElevatedButton(
               onPressed: () async {
                 AuthClass().signWithGoogle().then((UserCredential value) {
